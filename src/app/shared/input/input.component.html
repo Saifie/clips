@@ -16,4 +16,11 @@
   <p *ngIf="control.errors?.['email']" class="text-red-400">
     Type a Correct Email
   </p>
+  <p *ngIf="control.errors?.['min']" class="text-red-400">
+    Value Low
+  </p>
+  <p *ngIf="control.errors?.['pattern']" class="text-red-400">
+   password at least 8 characters
+ , must contain at least 1 uppercase letter, 1 lowercase letter, and 1 number
+  </p>
 </ng-container>
