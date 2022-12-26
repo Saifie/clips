@@ -19,7 +19,7 @@ import { NgxMaskModule, IConfig } from 'ngx-mask'
   ],
   imports: [
     CommonModule,ReactiveFormsModule, 
-    // NgxMaskModule.forRoot(),
+     NgxMaskModule.forRoot(),
 
   ],
   exports:[
