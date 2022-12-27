@@ -33,4 +33,16 @@ phoneNumber:new FormControl('',
   Validators.maxLength(13)
 ])
 });
+alertColor="blue"
+showAlert=false
+alertMsg="Please! wait you account being created"
+
+
+register(){
+this.showAlert=true
+this.alertMsg="Please! wait you account being created"
+this.alertColor="blue"
+
+
+}
 }
